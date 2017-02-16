@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-Coursera_vidya
+  host: IoTCourseraVidya
+  disk_quota: 1024M
+  services:
+  - IoT-Coursera_vidya-cloudantNoSQLDB
+  - IoT-Coursera_vidya-iotf-service
